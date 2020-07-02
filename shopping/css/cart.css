@@ -1,0 +1,40 @@
+.combo-value,.combo-value2{width: 50px;}/*计数框的大小*/
+td,th,tfoot{
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+th{border-top: 5px solid grey;}
+tr{line-height: 30px;}
+#price{color: red;}/*价格字体设为红色*/
+.price1{color: red;font-size: large;}/*设置合计颜色和大小*/
+.goods-image{/*设置logo图片边框*/
+    border-top:1px solid grey ;
+    border-right:1px solid grey ;
+    border-bottom:1px solid grey ;
+    border-left:1px solid grey ;
+    margin: 35px;
+}
+.goods-image img{/*设置图片大小*/
+    height: 130px;
+    width: 130px;
+}
+#cart-delete{/*设置删除按钮*/
+    text-decoration: none;
+    color: #000000;
+}
+#settlement{/*设置结算按钮*/
+    background-color:red ;
+    color: white;
+    border: red;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+}
+table{
+    margin: 0 auto;
+}
+caption{
+    text-align: left;
+}
